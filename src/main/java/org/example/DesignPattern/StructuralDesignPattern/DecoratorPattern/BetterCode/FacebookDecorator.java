@@ -1,4 +1,4 @@
-package org.example.DesignPattern.StructuralDesignPattern.BetterCode;
+package org.example.DesignPattern.StructuralDesignPattern.DecoratorPattern.BetterCode;
 
 public class FacebookDecorator extends BaseNotifierDecorator {
 
