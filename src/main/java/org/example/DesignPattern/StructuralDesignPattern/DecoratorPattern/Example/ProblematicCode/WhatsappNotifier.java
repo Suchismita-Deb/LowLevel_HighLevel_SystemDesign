@@ -1,4 +1,4 @@
-package org.example.DesignPattern.StructuralDesignPattern.DecoratorPattern.ProblematicCode;
+package org.example.DesignPattern.StructuralDesignPattern.DecoratorPattern.Example.ProblematicCode;
 
 public class WhatsappNotifier extends Notifier{
     public WhatsappNotifier(String userName){

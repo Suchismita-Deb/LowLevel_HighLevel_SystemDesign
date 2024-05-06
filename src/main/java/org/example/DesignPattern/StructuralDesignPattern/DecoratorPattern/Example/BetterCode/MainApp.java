@@ -1,4 +1,4 @@
-package org.example.DesignPattern.StructuralDesignPattern.DecoratorPattern.BetterCode;
+package org.example.DesignPattern.StructuralDesignPattern.DecoratorPattern.Example.BetterCode;
 
 public class MainApp {
     public static void main(String[] args) {
