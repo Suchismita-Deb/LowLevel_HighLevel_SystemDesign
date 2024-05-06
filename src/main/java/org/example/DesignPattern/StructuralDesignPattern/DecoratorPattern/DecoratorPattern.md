@@ -6,7 +6,7 @@ We have one class Notifier and we have one single send method which send message
 ```java
 public class Notifier {
     private final String userName;
-    
+
     public Notifier(String userName){
         this.userName = userName;
     }
@@ -23,7 +23,7 @@ The email is retrieve from the db service.
 public class Notifier {
     private final String userName;
     protected final DatabaseService databaseService;
-    
+
     public Notifier(String userName){
         this.userName = userName;
         databaseService = new DatabaseService();
@@ -105,9 +105,7 @@ Decorator Design Pattern helps in this cases.
 > It lets us **attach new behaviour** to an object by placing this object inside a **special wrapper** that contains these behaviour.
 
 
-In our example the main component app is intact and we will change the FacebookNotifier and WhatsappNotifier class.
-
-Will rename the FacebookNotifier as **FacebookDecorator** and **WhatsappDecorator** and it will extend the **BaseNotifierDecorator** class.
+In our example the main component app **Notifier** is intact and we will change the FacebookNotifier and WhatsappNotifier class to **FacebookDecorator** and **WhatsappDecorator** and it will extend the **BaseNotifierDecorator** class.
 
 > The BaseNotifierDecorator is the wrapper or container of the initial Notifier.
 
@@ -145,7 +143,12 @@ public class FacebookDecorator extends BaseNotifierDecorator{
 }
 ```
 
-The class should implement the interface iNotifier.
+The classes should implement the interface iNotifier. This interface will be used by all the classes and ny the wrapper class as well.
+
+Decorators are wrapper for the core object. Wrapping replaces inheritance with composition.
+*An advantage of teh composition is that we can easily substitute object with another as all of them belong to the same interface. This allows to change the beahaviour at the run time.*
+
+*Object can use the behaviour of various classes and not only one as it can refernce multiple object and can do all kinds of work.*
 ```java
 public interface iNotifier{
     void send(String message);
@@ -161,13 +164,13 @@ In composition, we can substitute the object with one another as all belong to t
 Tha main class.
 ```java
 public static void main(String[]args){
-    iNotifier notifier = new FacebookDecorator(
-                            new WhatsappDecorator(
-                               new Notifier("SDEB")
+        iNotifier notifier = new FacebookDecorator(
+        new WhatsappDecorator(
+        new Notifier("SDEB")
         )
-    );
-    notifier.send("This is the message");
-}
+        );
+        notifier.send("This is the message");
+        }
 ```
 
 In this code we can see, the wrapped object provided to the FacebookDecorator is itself a whatsappDecorator with simple Notifier.
@@ -177,8 +180,8 @@ FacebookDecorator's super.send method call will invoke the whatsappDecorators's 
 The output looks like.
 ```java
 This is the message by mail to SDEB@mail.com.
-This is the message by Whatsapp on SDEB@Phone.
-This is the message on Facebook to SDEB@Facebook.
+        This is the message by Whatsapp on SDEB@Phone.
+        This is the message on Facebook to SDEB@Facebook.
 ```
 ![Alt Text](/images/img1.png)
 
