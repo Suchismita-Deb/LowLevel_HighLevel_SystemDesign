@@ -180,8 +180,8 @@ FacebookDecorator's super.send method call will invoke the whatsappDecorators's 
 The output looks like.
 ```java
 This is the message by mail to SDEB@mail.com.
-        This is the message by Whatsapp on SDEB@Phone.
-        This is the message on Facebook to SDEB@Facebook.
+This is the message by Whatsapp on SDEB@Phone.
+This is the message on Facebook to SDEB@Facebook.
 ```
 ![Alt Text](/images/img1.png)
 

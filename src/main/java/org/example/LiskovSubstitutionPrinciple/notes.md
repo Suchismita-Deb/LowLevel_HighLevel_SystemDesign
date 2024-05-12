@@ -23,7 +23,6 @@ Only add those functionalities which is available to all the children. In the ve
 Will make separate engine class and the other child will extend the engine.
 ![img_1.png](LiskovSubstitutionPrinciple.png)
 
-
 Here we are not able to call the hasEngine() method from the list of Vehicle as Vehicle does not have the method.
 Similarly, if we create a list of Engine then we cannot make the bicycle object as it does not extend engine class.
 SO will not get any error.
