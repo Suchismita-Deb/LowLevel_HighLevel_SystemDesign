@@ -1,4 +1,5 @@
 LiskovSubstitutePrinciple.
+
 If we substitute the parent or child object then we should not break the code.
 Meaning one child should not downsize the property of the parent class.
 
