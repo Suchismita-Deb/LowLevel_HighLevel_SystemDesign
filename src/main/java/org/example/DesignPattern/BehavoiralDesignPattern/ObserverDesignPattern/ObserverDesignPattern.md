@@ -17,7 +17,8 @@ Same for the remove will remove the Observer. `remove(Observer obj);`
 In notify will send notify to the observer that are added and we store in the list. List contains the observer. `List<ObserverInterface>`
 
 **When implements Interface, making concrete class of teh interface it is IS-A** and **when we use the interface for any list or anything then HAS-A**.
->>observerDesignPattern.png
+
+![img_1.png](observerDesignPattern.png)
 
 The update method has no parameter.
 One way where we pass the observable interface in the parameter in the ObservableConcreteClass and get the update in the ObserverConcreteClass and mention as an instance of the ObservableConcreteClass as there will be multiple concrete class for the observable.
@@ -28,7 +29,7 @@ Weather Station. It needs to update the current temperature every 5 mins. The we
 
 How to solve.
 
->>observerDesignPatternExample1.png
+![img_1.png](observerDesignPatternExample1.png)
 
 If we donot take the constructor Injection then we have to pass the object in the parameter and also we have to mention like instance of as TVObserver can look to weatherStationObservable and it can also watch to the CricketStationObservable. 
 
