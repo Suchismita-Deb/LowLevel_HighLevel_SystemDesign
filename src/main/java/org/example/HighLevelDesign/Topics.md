@@ -9,7 +9,7 @@ HTTP vs TCP vs UDP vs FTP vs SMTP (POP,IMAP)
 
 Chapter 2.
 
-Latence vs throughput.
+Latency vs throughput.
 Availability vs Consistency.
 Performance vs scalability.
 

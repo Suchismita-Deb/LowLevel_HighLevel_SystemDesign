@@ -31,6 +31,7 @@ public class DBConnection{
     }
 }
 ```
+
 ```java
 public class Main{
     public static void main(String args[]){
@@ -38,8 +39,7 @@ public class Main{
     }
 }
 ```
-The constructor is made as private.
-so that outside the class no one should call the constructor.
+The constructor is made as private so that outside the class no one should call the constructor. It will not able to create an object with the new keyword.
 
 On public method `getInstance` so that other class can call it as it is static.
 - Here we created one instance variable and it is static as it related to a class.
@@ -112,3 +112,5 @@ public class DBConnection{
 
 - If two thread comes together at the first if and as they are null they will come inside the first if block and as it is synchronized only one will go inside the block. First it is null so it will create the object. Then for the next thread it will simply return.
 - We are checking 2 times.
+
+Counter - It is not correct to make a global variable. In Singleton we are making a global variable and we are changing the global variable to create the object. Unable to track which call has made the state change as ne class can be called from many method.
