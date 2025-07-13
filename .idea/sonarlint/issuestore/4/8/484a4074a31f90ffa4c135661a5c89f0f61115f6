@@ -1,20 +1,0 @@
-
-š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‚à²¬ùÿÿÿÿJ$a84a3207-b7c8-463f-a1cc-53e84e8e406b
-Õ
-java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(ã¤ÙÑJ$bc094aef-44f7-4ae3-8b9b-b0845010524e
-“
-java:S3077	"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ğèÿ¤J$d37b139c-3a82-46e7-89af-548616b04663
-˜
-java:S3077
-"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(·Ï²ÇúÿÿÿÿJ$f51b018f-ef41-4868-b914-537074a81d95
-˜
-java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(´¨ÆùÿÿÿÿJ$0956f769-59a4-414e-8a75-23ceae722814
-
-java:S1124	"EReorder the modifiers to comply with the Java Language Specification.(ğèÿ¤J$88189f46-0e90-45d2-936e-beca1d4ef75f
-†
-java:S1124
-"EReorder the modifiers to comply with the Java Language Specification.(·Ï²ÇúÿÿÿÿJ$a52cd706-7781-4844-b007-c481d4ee400e
-†
-java:S1124"EReorder the modifiers to comply with the Java Language Specification.(´¨ÆùÿÿÿÿJ$518ac158-e208-4aff-9a24-69bfa2ac17ec
-ƒ
-java:S1182"HUse super.clone() to create and seed the cloned instance to be returned.(™”” J$b37e2439-b617-4b34-9d82-2f235d529e56
