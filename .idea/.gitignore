@@ -1,3 +1,16 @@
 # Default ignored files
 /shelf/
 /workspace.xml
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+# Ignore Gradle Wrapper binaries for Windows (optional)
+gradlew.bat
+
+# Ignore local config
+*.log
+
+# Ignore OS junk
+.DS_Store
+Thumbs.db
