@@ -1,6 +1,7 @@
 package org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example1.BetterCode.Observer;
 
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example1.BetterCode.Observable.WeatherStationObservable;
+
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example1.BetterCode.Observable.WeatherStationObservable;
 
 public class TVDisplayObserver implements DisplayObserver{
 

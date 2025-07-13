@@ -12,7 +12,7 @@ User can use mobile, laptop. It should play in any device.
 ### Non Functional Requirements.
 
 No buffering - (Sounds too ambitious we can manage it.)
-No buffering meaning video should be available when user wants to play. Server serving the video sould be responding in very low latency and should be available. No buffering meaning - low latency and high availability.
+No buffering meaning video should be available when user wants to play. Server serving the video should be responding in very low latency and should be available. No buffering meaning - low latency and high availability.
 
 Increase the user session time. Need to make the user stay in the platform. No buffering and showing right content is important.
 

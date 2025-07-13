@@ -97,7 +97,7 @@ public class DatabaseService {
 ```
 Now if the client wants to get Message from whatsapp and facebook both then we have to make another combination of WhatsappAndFacebookNotifier class. In this way if client want message in SMS in phone then there will be another class.
 
-For every option there will be another class and there will ba a combination like **Whatsapp + SMS**, **SMS + Facebook** or **Whatsapp + Facebook + SMS** There will be many class and it is diffiult to manage in this way.
+For every option there will be another class and there will ba a combination like **Whatsapp + SMS**, **SMS + Facebook** or **Whatsapp + Facebook + SMS** There will be many class and it is difficult to manage in this way.
 
 Decorator Design Pattern helps in this cases.
 > Decorator Design Pattern is a Structural Design Pattern.

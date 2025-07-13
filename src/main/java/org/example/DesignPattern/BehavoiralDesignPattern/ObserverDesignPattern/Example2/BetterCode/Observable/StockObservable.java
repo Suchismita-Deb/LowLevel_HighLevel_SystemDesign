@@ -1,6 +1,6 @@
 package org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observable;
 
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.NotificationAlertObserver;
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.NotificationAlertObserver;
 
 public interface StockObservable {
     void add(NotificationAlertObserver observer);

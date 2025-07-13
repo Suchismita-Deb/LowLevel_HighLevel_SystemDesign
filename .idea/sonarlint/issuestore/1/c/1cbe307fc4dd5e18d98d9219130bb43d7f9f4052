@@ -1,0 +1,9 @@
+
+š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÔíìËşÿÿÿÿJ$c18f7b79-b97e-4962-9a7a-0a0046ee25b6
+w	java:S125"<This block of commented-out lines of code should be removed.(Ÿª’J$552bfe04-9817-421a-b628-47ba51614b92
+Ó
+java:S1128"‘Remove this unused import 'org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example1.BetterCode.Observer.DisplayObserver'.(ŸßóşÿÿÿÿJ$1ac114f0-7a7d-4e86-b093-515a670844f7
+Ô
+java:S1128"—Remove this unused import 'org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example1.BetterCode.Observer.MobileDisplayObserver'.(ïÎˆ¼J$c37cb1dc-5075-4438-8e92-27e24ce1c931
+Õ
+java:S1128"“Remove this unused import 'org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example1.BetterCode.Observer.TVDisplayObserver'.(öŒ€İÿÿÿÿÿJ$187461f8-a0d9-488a-84a4-ba9c41653acd

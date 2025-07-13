@@ -1,0 +1,12 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êÿ…ÔJ$fbf21eb2-f482-40be-bcaf-ccf3d16538b6
+Ú
+java:S6548
+"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(¸¨’ÛùÿÿÿÿJ$8c877b95-3bef-40d1-8615-c19cf48de2fc
+k	java:S106"+Replace this use of System.out by a logger.(×î·êøÿÿÿÿJ$2cfb0968-2a1e-4bd4-aa83-e35f29630de3
+k	java:S106 "+Replace this use of System.out by a logger.(«ø‘¹ûÿÿÿÿJ$3e3fe6ca-509a-4724-9290-d46f86e28d59
+e	java:S106+"+Replace this use of System.out by a logger.(¡¦ÍJ$93096ec6-d79a-4dfa-be5d-4428b166b7b2
+k	java:S1066"+Replace this use of System.out by a logger.(ÅÐ÷ìøÿÿÿÿJ$672b510d-9262-4696-acbc-52646cebf735
+k	java:S106A"+Replace this use of System.out by a logger.(ÛðúáýÿÿÿÿJ$fc9025dd-74e2-4f64-ad9d-65bd1044a9f0
+e	java:S106L"+Replace this use of System.out by a logger.(“®ø"J$cfe08cdf-ab1d-49fb-ba14-fd9da4dc8f7a
+k	java:S106W"+Replace this use of System.out by a logger.(úÖ¨ÂýÿÿÿÿJ$e6d0b18e-727f-4f60-bbcf-6287fba4f8ff

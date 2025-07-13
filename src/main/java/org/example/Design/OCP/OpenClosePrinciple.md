@@ -14,4 +14,4 @@ When abstraction we should think about Polymorphism.
 
 Solution - Notification as an interface with one method send. Now the types of notification will implement the method and in the class we will use `List<Notification>` 
 
-Similar one practic problem like `Report Generator` type PDF and Word. `Discount calculator` for Vehicle and Electronics. `Vehicle Insurance` like car or truck.
+Similar one practice problem like `Report Generator` type PDF and Word. `Discount calculator` for Vehicle and Electronics. `Vehicle Insurance` like car or truck.

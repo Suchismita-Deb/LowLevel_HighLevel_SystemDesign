@@ -25,7 +25,7 @@ int coordinateY; // 4B
 String type; // 50B (Say 50 char and one char is 1B)
 
 Each object takes the memory and there is a huge memory use. We need to save the memory.
-### When to use the FlyweightPattern.
+### When to use the FlyweightPattern.  
 **When memory is limited.**
 **When object shares the data.**
 For all the object the data is shared for the `type`. For all the human robot the type is same `"HumanRobot"`.

@@ -1,10 +1,11 @@
 package org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode;
 
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observable.IPhoneObservableImpl;
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observable.StockObservable;
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.EmailAlertObserverImpl;
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.MessageAlertObserverImpl;
-import May.SpringCourse.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.NotificationAlertObserver;
+
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observable.IPhoneObservableImpl;
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observable.StockObservable;
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.EmailAlertObserverImpl;
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.MessageAlertObserverImpl;
+import org.example.DesignPattern.BehavoiralDesignPattern.ObserverDesignPattern.Example2.BetterCode.Observer.NotificationAlertObserver;
 
 public class Main {
     public static void main(String[] args) {
