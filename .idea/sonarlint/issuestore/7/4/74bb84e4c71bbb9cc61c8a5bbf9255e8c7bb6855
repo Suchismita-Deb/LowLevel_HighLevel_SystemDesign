@@ -1,0 +1,15 @@
+
+”	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒìJ$3ff70cf6-0dc6-4ae6-bafa-1e6f7228a437
+z
+java:S1854,">Remove this useless assignment to local variable "requestId2".(Øæ‰J$32293441-6f97-41e6-b6a2-214087822333
+f	java:S106"+Replace this use of System.out by a logger.(²¿²J$ba6c1526-44e7-4d04-ab34-db1fb194fb84
+f	java:S106)"+Replace this use of System.out by a logger.(û»ÎŸJ$43d2b03e-d6f3-4552-bda1-868ff3efaa0d
+k
+java:S1481,"/Remove this unused "requestId2" local variable.(Øæ‰J$7fc26cec-75f2-4899-a878-be901c1dc636
+k	java:S1060"+Replace this use of System.out by a logger.(‡ÿô‚ıÿÿÿÿJ$37d3fc49-261d-4e89-ac67-7b2fc800b096
+k	java:S1062"+Replace this use of System.out by a logger.(ìö•ºøÿÿÿÿJ$0899d24d-1ad5-4bb6-b6f6-9d65e21ac109
+e	java:S1065"+Replace this use of System.out by a logger.(¶ =J$f094e591-f908-4435-857f-5f39288067d2
+k	java:S106@"+Replace this use of System.out by a logger.(¿Ææ´ùÿÿÿÿJ$f502ad8d-835c-40f2-a708-bc7f7f37be4d
+k	java:S106K"+Replace this use of System.out by a logger.(Àœ¿ùÿÿÿÿJ$19ff9c92-9891-4182-842f-716993717b9d
+k	java:S106M"+Replace this use of System.out by a logger.(•§êÛùÿÿÿÿJ$21307d83-aa06-44c7-9cb7-636c5e1b786d
+f	java:S106N"+Replace this use of System.out by a logger.(¶È÷‹J$86c38b18-8667-4458-a525-deaa837e088e

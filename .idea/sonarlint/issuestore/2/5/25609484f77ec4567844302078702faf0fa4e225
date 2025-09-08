@@ -1,0 +1,134 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‹à§ÿJ$2c1aeb16-d9ad-42a2-a3f2-34ffce9a9a04
+
+java:S1488ƒ"[Immediately return this expression instead of assigning it to the temporary variable "res".(×ö›ùÿÿÿÿJ$9a8e7363-b4d0-4d2e-99a2-353aa8efc7e1
+
+java:S1488‰"[Immediately return this expression instead of assigning it to the temporary variable "res".(èŒ£ŸÿÿÿÿÿJ$db6e5e42-f0ac-40b0-9dfd-10669256120d
+
+java:S1488"[Immediately return this expression instead of assigning it to the temporary variable "res".(éêÎüıÿÿÿÿJ$0f75a388-7ba2-4dc8-b55d-fce9f43f99f7
+—
+java:S1488•"[Immediately return this expression instead of assigning it to the temporary variable "res".(‹µ«NJ$3db5565f-bcdb-4afc-bbb1-7793b6f57227
+r
+java:S1172S"1Remove this unused method parameter "recipients".(ÎÈùøÿÿÿÿJ$34117d3f-9f14-4223-9e7f-827a0b1ac3c8
+Â
+java:S1186y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(÷¶ÎşúÿÿÿÿJ$2ceb2cb9-9e02-442a-b5dd-4df4eca486e4
+Â
+java:S1186{"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Óã²éıÿÿÿÿJ$9e7386d0-4aeb-448c-9257-c98020e82fa8
+½
+java:S1186}"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‚õ¦J$47ea7383-b774-4bdb-a5fb-becb0115a502
+Â
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ü…ÀøÿÿÿÿJ$a48a0f0e-e8cd-487d-95da-adaa0cec005e
+k
+java:S1172Ÿ".Remove this unused method parameter "account".(÷öñJ$acf4739f-28ea-4c2f-a7ef-bc1ce049e5bc
+n
+java:S1172²"1Remove this unused method parameter "experience".(ë†ÏJ$e5bd7ef9-8e6b-46b2-a473-afab9c3aa00f
+m
+java:S1172¶"0Remove this unused method parameter "education".(óçâÅJ$7e81a2e9-036c-4457-a5e0-d0cdfdfccc6d
+i
+java:S1172º",Remove this unused method parameter "skill".(¿¹ÄÃJ$df4707cc-9a26-46d4-8d52-09d4526b8c12
+t
+java:S1172¾"2Remove this unused method parameter "achievement".(‚Ø¾†şÿÿÿÿJ$9407ecde-4b16-4e42-b80b-778c5e8b7f9e
+|
+java:S1161õ":Add the "@Override" annotation above this method signature(şî’ŞúÿÿÿÿJ$87e181b9-8278-47f1-ac45-f40d4b6e9b3a
+w
+java:S1161ù":Add the "@Override" annotation above this method signature(•¯©êJ$ad5d20d5-2ae2-4a42-a1d8-894262b1e507
+w
+java:S1161ı":Add the "@Override" annotation above this method signature(»‘³ÚJ$be28dcb4-f251-45ff-a179-7bcd3175d05a
+i
+java:S1481ÿ"-Remove this unused "observer" local variable.(À×Ö~J$ba6ea5ba-bf76-4571-bac4-75c6371ae660
+x	java:S125€"<This block of commented-out lines of code should be removed.(£åõÏJ$65ea4444-d43e-4f3f-86c1-be95d491c839
+l
+java:S1172’"*Remove this unused method parameter "job".(ï„œıÿÿÿÿJ$b685af24-c152-489a-9051-cb20869b0ad1
+Ã
+java:S1186›"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±Î€øÿÿÿÿJ$7cab37e6-5b0f-4b6e-9c17-9855d42cb8e5
+Ã
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(µ©»„üÿÿÿÿJ$8ff664de-9d52-47e7-be02-33652cc09f0b
+¾
+java:S1186Ÿ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(´ÔÎîJ$1f07064b-4ea5-4c87-9cd7-96c4347aa0c7
+Ã
+java:S1186í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼äÿ³øÿÿÿÿJ$b8065575-8a69-45e7-b96d-3ef09dd6887e
+x	java:S125ª"<This block of commented-out lines of code should be removed.(ğ–ÜJ$9d28cc29-a5da-4395-9775-e20adaaaad56
+p
+java:S1172°".Remove this unused method parameter "message".(–Æˆ’ûÿÿÿÿJ$10d6763e-c915-4f34-a6e4-494e0d80095c
+o
+java:S1172´"-Remove this unused method parameter "invite".(ùøš²ÿÿÿÿÿJ$9f90f1e0-eb8b-41f1-9850-5b6f167d911f
+o
+java:S1172¸"-Remove this unused method parameter "invite".(˜±úÿÿÿÿJ$53103ce8-3d14-4eca-b2c3-b8f2865d3327
+h
+java:S1172¼"+Remove this unused method parameter "page".(½“ ÛJ$eca48cab-6d34-4884-b57c-4fb869f6ebd5
+m
+java:S1172À"+Remove this unused method parameter "page".(ıØŞãùÿÿÿÿJ$5196455b-efb8-46d2-baad-f305229c5f9c
+n
+java:S1172Ä",Remove this unused method parameter "group".(—ê¼‹şÿÿÿÿJ$6d7f996a-487e-4e18-9101-e9b4986bc280
+n
+java:S1172È",Remove this unused method parameter "group".(†ÊíÿÿÿÿÿJ$e05a5908-2ff9-40fb-bff6-b1fb289da25d
+m
+java:S1172Ì"+Remove this unused method parameter "post".(›‘™ªøÿÿÿÿJ$343e889f-9149-4d79-9bb0-d0a4ccae7f09
+h
+java:S1172Ğ"+Remove this unused method parameter "post".(¨¹Ì°J$dac958d1-3d5d-400b-a7b2-99a192c8a60a
+p
+java:S1172Ô".Remove this unused method parameter "comment".(ÉˆÏåıÿÿÿÿJ$fc980f3f-9ab5-43ca-abf6-996678aeeb69
+p
+java:S1172Ø".Remove this unused method parameter "comment".(Ü×ôüÿÿÿÿÿJ$45d13106-dbe4-491c-8dba-38839b77ed81
+m
+java:S1172Ü"+Remove this unused method parameter "post".(ıÌêõúÿÿÿÿJ$7b9c6416-bbcf-4b81-aed9-e3e41b5448f9
+m
+java:S1172à"+Remove this unused method parameter "user".(ù†¬úúÿÿÿÿJ$41b66e10-8a31-4c24-941c-e617aacbe427
+h
+java:S1172ä"+Remove this unused method parameter "user".(ÃóÙ£J$dc391753-2c20-4f7b-9387-fde64fb7b965
+f
+java:S1172è"*Remove this unused method parameter "job".(ÓÓÌ(J$d446c3b1-cd35-47a7-8a46-e7448f13695a
+h
+java:S1172û"+Remove this unused method parameter "user".(ãŠ²¤J$e3848f07-089b-47bb-affc-b27aff26b4c4
+m
+java:S1172ÿ"+Remove this unused method parameter "user".(°‰µİùÿÿÿÿJ$686c669c-0238-4767-a90f-b1c78fd7f767
+g
+java:S1172ƒ"+Remove this unused method parameter "page".(åØó0J$fe9e4b8f-4042-41e8-a0e4-519dd5d8cd67
+h
+java:S1172‡"+Remove this unused method parameter "page".(ÈÔ¡J$6d92ad72-d94d-4c66-b1a4-bdf8ae99ab06
+n
+java:S1172‹",Remove this unused method parameter "group".(†ÊíÿÿÿÿÿJ$5df870fb-f682-41cc-b95e-c68a5f898220
+¾
+java:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘J$ef4204cc-fa79-459c-921f-80b616830b09
+q
+java:S1068"5Remove this unused "searchAppearances" private field.(é‡ĞÇJ$e42d0bb0-729d-4123-a2eb-2cb851ca1a88
+l
+java:S1068 "0Remove this unused "profileViews" private field.(Ô¿‚–J$98571603-cc7f-441e-88cd-201d1515d420
+t
+java:S1068!"3Remove this unused "postImpressions" private field.(ë·¤ùÿÿÿÿJ$9c1f5639-b0c5-4abf-b2eb-aa66628655a9
+p
+java:S1068""4Remove this unused "totalConnections" private field.(çéÙÂJ$5e99ed23-bd07-4ecf-a96f-d8f4eac4dbc5
+j
+java:S1068&")Remove this unused "title" private field.(åõò¹ıÿÿÿÿJ$841f1945-0a51-42b7-a102-fdf5f6217fb3
+p
+java:S1068'"/Remove this unused "dateAwarded" private field.(†£æûÿÿÿÿJ$b61b18a4-608c-4315-b1fa-ac5b85088b76
+p
+java:S1068("/Remove this unused "description" private field.(ÇÓæâıÿÿÿÿJ$c04ddc92-8da6-4186-abef-882fea22b189
+i
+java:S1068."-Remove this unused "accountId" private field.(ßÒìÈJ$36911e3a-9561-4ccd-a583-29ffae0d3775
+m
+java:S1068/",Remove this unused "password" private field.(œãë­úÿÿÿÿJ$c10a80d6-23a9-44ca-ad91-52fc12454344
+h
+java:S10680",Remove this unused "username" private field.(‘ó¹²J$60b4dc5b-78ff-4cbd-b176-8f46616b3901
+j
+java:S10681")Remove this unused "email" private field.(ª«ÕìùÿÿÿÿJ$b774b3f9-4003-4d7d-b18a-a49c07bb85d6
+g
+java:S10687"+Remove this unused "zipCode" private field.(›âì»J$24da938a-8dba-4acd-a4fe-9619f7fefbfc
+m
+java:S10688"1Remove this unused "streetAddress" private field.(ôºÉ´J$b82c2d52-bd36-460e-b28f-a5f44c66bfa2
+d
+java:S10689"(Remove this unused "city" private field.(“øÌàJ$7742eb16-704f-44cd-9d6d-f92fa29284d0
+j
+java:S1068:")Remove this unused "state" private field.(µîŠ©øÿÿÿÿJ$aaedbe9b-ed75-4ee0-8689-1d21ddb3f84e
+l
+java:S1068;"+Remove this unused "country" private field.(“—àÊúÿÿÿÿJ$b7f09b66-7b96-4eca-9a80-0407e9390459
+e
+java:S1068ò"(Remove this unused "name" private field.(Ë¥¼J$69427e74-0ba4-4102-8628-6fe2a0c57e64
+m
+java:S1068ó"+Remove this unused "address" private field.(ßÍ˜²ıÿÿÿÿJ$c0e867d4-1313-46f3-89f9-6e9a0873692f
+k
+java:S1068ô")Remove this unused "email" private field.(ª«ÕìùÿÿÿÿJ$31a3007f-6e35-424c-8d00-a73c2bb5c199
+f
+java:S1068õ")Remove this unused "phone" private field.(À†½´J$bb870990-73af-4cd3-b3ba-0ab0d9dafbed
+h
+java:S1068ö"+Remove this unused "account" private field.(„•·ÔJ$2371e735-188a-41bd-9080-33655a187746

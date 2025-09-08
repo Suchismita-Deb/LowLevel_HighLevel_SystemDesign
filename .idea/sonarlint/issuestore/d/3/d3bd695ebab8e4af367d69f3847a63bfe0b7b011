@@ -1,0 +1,9 @@
+
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒì8¬Û½’3J$4b8b8a40-a2d5-486d-a1d2-a3b3bcc165c2
+Û
+java:S6548"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(©ğÆ8ŸÃè½’3J$9bac9e9f-ede5-4e56-86b3-42e16822b5c3
+š
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(½ÔòŠ8¤Ãè½’3J$10c2640e-081f-48ef-9bf8-a8a4d86d8b16
+r	java:S1060"+Replace this use of System.out by a logger.(Ê©Ùûÿÿÿÿ8µÃè½’3J$e320d3d2-c808-4477-98f6-e4647fdd8d16
+m	java:S106C"+Replace this use of System.out by a logger.(ğ†‡û8ºÃè½’3J$001237f3-50e4-42f9-a68e-701d011c38ca
+m	java:S106N"+Replace this use of System.out by a logger.(ãÑ„«8ÁÃè½’3J$f4971a8a-1aeb-4595-99ac-2bbe4e136c5b

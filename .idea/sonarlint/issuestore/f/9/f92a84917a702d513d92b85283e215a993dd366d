@@ -1,0 +1,8 @@
+
+•	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®¸±‚J$7fa3ee6e-d824-4ee1-accf-6dab67ea575d
+š
+java:S1450"YRemove the "acceptedAt" field and declare it as a local variable in the relevant methods.(ßÞÓ„ýÿÿÿÿJ$6f1f0d75-4ab3-44d9-a225-9cdd1dec7aac
+p
+java:S1068"/Remove this unused "requestedAt" private field.(‡èîÇüÿÿÿÿJ$4b24d4e1-07c8-43d9-8693-d347e8c442a6
+o
+java:S1068".Remove this unused "acceptedAt" private field.(ßÞÓ„ýÿÿÿÿJ$4982845f-a8ae-413d-8068-b088d22bac57
