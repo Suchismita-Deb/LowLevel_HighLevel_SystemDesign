@@ -11,6 +11,7 @@ public class Connection {
     private final LocalDateTime requestedAt;
     private LocalDateTime acceptedAt;
 
+
     public Connection(Member fromMember, Member toMember) {
         this.fromMember = fromMember;
         this.toMember = toMember;
