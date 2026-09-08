@@ -1,4 +1,4 @@
-This pattern is mainly used to store the Object history. Like to do the UNDO functionality.
+This pattern is mainly used to store the Object history. Like to do the **UNDO** functionality.
 
 It is also called as Snapshot Design Pattern.
 
@@ -16,6 +16,6 @@ Caretaker - Manages the list of state.
 Originator has what to save in the memento and what to restore in the memento.
 
 
-memento.png
+![Memento Design Pattern](memento.png)
 
 
