@@ -44,3 +44,8 @@ class Penguin extends Bird {
 }
 ```
 Penguin cannot substitute Bird in a program that expects all Bird instances to be able to fly.
+
+
+The LSP states that objects of a superclass should be replaceable with objects of a subclass without altering the correctness of the program. No client should be forces to depend on method it does not use. Split larger interface into smaller more specific ones.
+
+In the case of the bird make 2 separate interface like the fly and walk. The penguin will implement the walk interface and the other birds will implement the fly interface.
