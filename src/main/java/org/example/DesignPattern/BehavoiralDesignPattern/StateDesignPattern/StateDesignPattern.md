@@ -7,10 +7,12 @@ Then there is one button for cancel or refund.
 Then there is one place for getting the cash exchange.
 Then there is another place for the product to get.
 
->>VendingMachine.png
+![VendingMachine](VendingMachine.png)
 
 When we observe the happy path scenario of the flow. 
-> flowOfVendingMachine.png
+
+
+![flowOfVendingMachine](flowOfVendingMachine.png)
 
 In every step it is going to some different state and each state has its own function.
 In state 1 like Idle state - The Functions like Insert cash button.
