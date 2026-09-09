@@ -1,11 +1,4 @@
-When the child class have the same code but it is not present in the base. Then use the Strategy Pattern.
-Notes from the Blog.
-https://suchismita-deb.github.io/post/systemdesign/designpattern/strategydesignpattern/
-
-Scenario - A simple payment method where user can pay using different methods like credit card or Paypal.  
-Without strategy pattern we have to use if-else to handle different payment method.
-
-```java
+package org.example.DesignPattern.BehavoiralDesignPattern.StrategyDesignPattern.ProblematicCode1;
 
 public class NoStrategyPattern {
     public static void main(String[] args) {
@@ -31,10 +24,3 @@ class PaymentService{
         }
     }
 }
-```
-
-With the Strategy pattern the logic for each payment type is encapsulated in separate strategy classes and the PaymentService(context class) delegates the task of payment processing to one of these strategies at runtime.
-
-
-
-

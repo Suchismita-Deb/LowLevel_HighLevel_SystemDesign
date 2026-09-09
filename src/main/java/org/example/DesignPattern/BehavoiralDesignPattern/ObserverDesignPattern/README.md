@@ -26,6 +26,7 @@ Another way(HeadFirstDesignPattern) we pass the ObservableInterface in the const
 
 ### Example.
 Weather Station. It needs to update the current temperature every 5 mins. The weather is getting observed by `TVDisplayObserver` and `MobileDisplayObserver`
+No use of observer pattern then the weather station would have to explicitly inform each device about the temperature change and tight coupling.
 
 How to solve.
 
@@ -39,11 +40,51 @@ MobileDisplayObserver(WeatherStationObservable o){
 this.obj = o;
 }
 ```
+
 When we need CricketStationObservable then will pass it in the constructor.
 
-### Example 2
-Notify Me button.
-In the StockObservable we have Iphone Impl. In the observer we have NotificationAlertObserver where we have two class one for the EmailObserver and another one for the MessageObserver. People can use the email or the message.
 
+The problematic code.
 
-One doubt is the Stock Market Exchange also uses the Observer Design Pattern.
+```java
+class WeatherStation{
+    private float temperature;
+    private DisplayDevice displayDevice;
+    
+    public WeatherStation(DisplayDevice displayDevice){
+        this.displayDevice = displayDevice;
+    }
+    
+    public void setTemperature(float temp) {
+        this.temperature = temp;
+        notifyDevices();
+    }
+    public void notifyDevices() {
+        displayDevice.update(temperature);
+    }
+}
+
+class DisplayDevice{
+    public void update(float temp) {
+        System.out.println("Temperature updated to: " + temp);
+    }
+}
+
+class Main{
+    public static void main(String[] args) {
+        DisplayDevice device = new DisplayDevice();
+        WeatherStation station = new WeatherStation(device); // It is making the device and new device needs to be added in the main method. It is tight coupling and new device is not track.
+        
+        station.setTemperature(25.0f);
+        station.setTemperature(30.0f);
+                
+    }
+}
+```
+
+The solution to use the Observer Interface and the WeatherStation will be the Observable and the DisplayDevice will be the Observer. 
+
+The WeatherStation has the List<Observer> and the addObserver(), removeObserver() and notifyObservers() methods. 
+
+There are ways where the add, remove and notify can be called as Subject abstract class and the WeatherStation is the concrete class.
+
