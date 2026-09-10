@@ -22,3 +22,42 @@ The method is called the template method. It only provide the template of the me
 
 Example.
 
+There is an application with different data parsers like CSV, XML, JSON. Each parser has the same step like open, parse the file and close the file. The parse is specific to parser and the open close same and it act as a template.
+
+In case of not using the template pattern there will be code duplication.
+
+```java
+package org.example.DesignPattern.BehavoiralDesignPattern.TemplateDesignPattern.ProblematicCode;
+
+public class NoTemplatePattern {
+    public static void main(String[] args) {
+        CSVParser csvParser = new CSVParser();
+        JsonParser jsonParser = new JsonParser();
+        csvParser.parse();
+    }
+
+}
+
+class CSVParser {
+    public void parse() {
+        openFile();
+        // ParseLogic
+        closeFile();
+    }
+
+    public void openFile() {
+        System.out.println("Opening file...");
+    }
+
+    public void closeFile() {
+        System.out.println("Closing file...");
+    }
+}
+
+class JsonParser {
+}
+```
+
+The fix to use the Abstract class including the template(), open(), close() and parse().
+
+The CSVParser will override the parse method. The template method will implement the open, close and parse and the parse will be separate for the class.

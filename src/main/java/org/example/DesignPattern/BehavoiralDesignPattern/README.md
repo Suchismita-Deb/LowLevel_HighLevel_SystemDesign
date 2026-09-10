@@ -5,5 +5,9 @@ Its mainly focusing on the communication and behavior of the objects, the object
 The common applications of the pattern - Coordinating interactions between objects.  
 Managing state transitions and communication efficiently.
 
-
+Chain Of Responsibility
+Mediator
+State
+Null
+Visitor
 

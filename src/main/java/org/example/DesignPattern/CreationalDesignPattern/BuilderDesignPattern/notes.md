@@ -35,3 +35,10 @@ Client will call the director.
 One thing say I want Engineering Student then created one class of EngineeringStudentBuilder and want MBAStudent then created MBAStudentBuilder. Now if I want a dual degree of Engineering and MBA then I have to make another class of EngineeringMBADualDegree and make the class.
 
 We cannot make any dynamic change in the object like we can do in the Decorator Pattern.
+
+Example.
+
+When an object requires many optional parameter and the constructor becomes hard to use or maintain the issue leads to long constructor parameter list, lack of flexibility when it comes to setting only some values.
+
+Builder pattern solves the problem by separating the constructor of the object (HouseBuilder) from its representation (House) offering a fluent interface for creating complex object.
+

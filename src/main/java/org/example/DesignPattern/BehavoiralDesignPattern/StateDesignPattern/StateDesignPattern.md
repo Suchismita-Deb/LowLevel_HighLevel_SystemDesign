@@ -35,3 +35,22 @@ All the operations has the Product object in the parameter as the operation will
 The Product class has a State.
 
 There will be one interface of State and that will contain all the method and only the class will implement the specific method.
+
+Example.
+
+The directionService class in the Navigation app.
+
+State denote the transport mode and the functionality. The class contains the ETA and the direction() method.
+
+There are many conditional statement and to add any logic there are changed to be done in teh existing file.
+
+The State pattern solves the problem.
+
+The structure of the state pattern - Context, State, Concrete State.
+
+**Context** - Hold the reference to the current state. The DirectionService class.  
+
+**State** - Interface for the state-specific behavior.   like the getETA, getDircetion method. The concrete class like the CYCLE, WALK, DRIVE will override and implement the method.
+
+**Concrete State** - Specific implementations of the State interface that represents a particular state of the context object.
+
