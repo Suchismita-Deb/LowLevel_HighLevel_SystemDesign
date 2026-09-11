@@ -196,3 +196,7 @@ This is the message on Facebook to SDEB@Facebook.
 **Client** - Wraps component in layers of decorators it should work with component.
 
 > It applies Single Responsibility and Open Close Principle.
+
+
+There is an application and to add functionality to an object at runtime and subclassing would lead to an explosion of subclasses or is impractical.
+
