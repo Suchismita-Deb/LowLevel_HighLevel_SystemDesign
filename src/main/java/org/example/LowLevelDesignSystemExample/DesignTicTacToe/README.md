@@ -5,14 +5,6 @@ Alternate turn between 'X' and 'O'.
 Move validation to ensure no valid move.   
 Detection of win or draw scenarios.
 
-The booking supports multiple screen in the theatre showing different movies.
-
-It manages the concurrent booking attempts to prevent double bookings. There is session timeout to release seats if the
-payment is not completed.
-
-Temporary seat locking during the booking process. Seat status tracking like the availability, temporarily unavailable,
-not available.
-
 ### Steps to proceed in the interview.
 
 
@@ -35,41 +27,106 @@ GameCompletion - Win or Draw.
 In most of the problem we can use Strategy and Factory.
 In many problem we want to show something to the user so the observer pattern.
 
-In the application there are state like the players turn and it can be done by the State Pattern.
+What can change?              → Strategy
+What states does game have?  → State
+Who needs notification?      → Observer
+How are objects created?     → Factory
+How are dependencies given?  → Constructor DI
 
-Not a good place to use all but still you can say the name. The main point is 45 mins is not enough so to put everything
-so its better to say the name and make them know that you are aware of the design pattern and you can implement it.
+Player → makeMove()
+→ Board validates move
+→ Board updates cell
+→ Check Win / Draw
+→ GameState changes
+→ Notify Observer
+→ Switch player
 
-Strategy Pattern - A Player interface with a makeMove() method implement differently for the human and AI.
+Strategy Pattern — Player Interaction.  
+Different players can have different ways of making a move.
+```java
+interface PlayerStrategy {
+    Position makeMove(Board board);
+}
 
-Observer Pattern - It will notify the user so we can use Observer Pattern.
+class HumanPlayerStrategy implements PlayerStrategy {
+    public Position makeMove(Board board) {
+        // take row/column from user
+        return new Position(row, col);
+    }
+}
+```
 
-### Key component.
+State Pattern — Game State.  
+Game has different states
 
-Theatre - Represents the physical theatre with screens.  
-Screen - Represents a movie screen within the theatre.  
-Movie, Show - Time and screen, Seat, User, Seat LockProvider - Common interface for locking mechanism during ticket
-booking.
+```java
+interface GameState {
+    void handle(GameContext context);
+}
 
-### Pattern.
+class XTurnState implements GameState {
+    public void handle(GameContext context) {
+        // X player's turn
+    }
+}
 
-How to approach the design challenges?
+class OTurnState implements GameState {
+    public void handle(GameContext context) {
+        // O player's turn
+    }
+}
+```
 
-Tip - Name the parts that are imp and the design pattern you are planning to implement.
+Observer Pattern — Notifications.  
+When a move/state changes, listeners can be notified.
 
-Repository Pattern - There are many services like the MovieService and TheatreService acting as repository managing the
-collection of entities. They handle the creation, retrieval and management of domain objects.
+```java
+interface GameEventListener {
+    void onMove(Position position, Symbol symbol);
+}
 
-Strategy Pattern Seat Locking Mechanism - A family of locking algorithm and makes them interchangeable. The booking system to support various locking methods like db-backed or distributed lock provider.
+class ConsoleGameEventListener implements GameEventListener {
+    public void onMove(Position position, Symbol symbol) {
+        System.out.println(symbol + " moved");
+    }
+}
 
-Controller/Handler/Manager - Service Pattern - The separation of concerns by delegating HTTP request handling to controllers and the business logic to the service class.
+for (GameEventListener listener : listeners) {
+        listener.onMove(position, symbol);
+}
+```
 
-DI - The system will be using the constructor based
+Factory Pattern — Player Creation.  
+Player creation can be centralized.   
+HOW should objects be created? → Factory
 
-Strategy Pattern for Player Interactions - PlayerInterface that define different move like move from AI and user input from human. The method makeMove() will be implemented differently by players.
+```java
+class PlayerFactory {
 
-State Pattern - The different game state like the in-progress, won and draw. The GameState will be used to maintain the transition between states based on the game conditions.
+    Player createPlayer(Symbol symbol, PlayerStrategy strategy) {
+        return new Player(symbol, strategy);
+    }
+}
+```
 
-Observer Pattern - Notify the listeners about the GameState change. A GameEventListener that get notified when a player makes a move or the game state changed.
+Constructor DI.  
+Dependencies are passed through the constructor.
 
-Factory Pattern for Player Creation - Player and the interface use a factory to instantiate player object.
+```java
+class TicTacToeGame {
+
+    private final Board board;
+    private final Player playerX;
+    private final Player playerO;
+
+    TicTacToeGame(Board board,
+                  Player playerX,
+                  Player playerO) {
+        this.board = board;
+        this.playerX = playerX;
+        this.playerO = playerO;
+    }
+}
+```
+
+Don't create dependencies inside the class → inject them.

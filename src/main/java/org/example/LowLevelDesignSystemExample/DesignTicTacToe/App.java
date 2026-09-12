@@ -63,30 +63,14 @@ class Position {
     }
 }
 
-
-/* ============================================================
-   SYMBOL
-   ============================================================ */
-
 enum Symbol {
     X, O, EMPTY
 }
 
-
-/* ============================================================
-   STRATEGY PATTERN
-   ============================================================ */
-
 interface PlayerStrategy {
-
     Position makeMove(Board board);
 }
-
-
-/* ============================================================
-   HUMAN PLAYER
-   ============================================================ */
-
+// We are making the HumanPlayer with the logic.
 class HumanPlayerStrategy implements PlayerStrategy {
 
     private final Scanner scanner;
