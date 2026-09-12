@@ -15,6 +15,7 @@ not available.
 
 ### Steps to proceed in the interview.
 
+
 Make the entity and the task.
 
 Give the idea of the design and the pattern to use.   
